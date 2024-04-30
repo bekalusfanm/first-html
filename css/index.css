@@ -1,0 +1,169 @@
+.logo {
+  font-size: 15px;
+  color: blueviolet;
+}
+
+.menu-icon {
+  display: block;
+  font-size: 20px;
+
+}
+
+.paragraph {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  ;
+}
+
+.header {
+  text-align: right;
+  margin-top: 0%;
+  font-size: 16px;
+  height: 3;
+}
+
+.text {
+  font-size: 50px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 120px;
+  margin-top: 120px;
+  ;
+}
+
+.link {
+  font-size: 20px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+  color: blue;
+  padding-top: 0px;
+}
+
+.link:hover {
+  color: black;
+}
+
+.menu {
+  float: right;
+  margin-top: 0px;
+}
+
+.menu-items {
+  list-style-type: none;
+  margin-top: 0px;
+  float: inline-end;
+}
+
+.menu-items li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu-items a:hover {
+  color: red;
+}
+
+.menu-items li:last-child {
+  margin-right: 10px;
+}
+
+.my-anchor1 {
+  padding: 5px;
+  margin-left: 120px;
+  margin-right: 10px;
+  margin-bottom: 150px;
+}
+
+.my-anchor2 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 150px;
+}
+
+.my-anchor3 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 150p;
+}
+
+.my-anchor4 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 150px;
+}
+
+.my-anchor5 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 150px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-toggle img {
+  width: 20px;
+  height: 10px;
+}
+
+@media (max-width: 767px) {
+  .menu-items {
+    display: none;
+  }
+
+  .menu-toggle img {
+    display: inline-block;
+  }
+
+  body {
+    background-image: url(/html-css-project/image/header-shapes\ mobile.png);
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-items {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-items li {
+    display: block;
+    margin: 10px;
+  }
+
+  body {
+    background-image: url(/html-css-project/image/Header\ bg@2x.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    margin-left: 150px;
+  }
+}
+
+.main {
+  height: 93vh;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -5%;
+  margin-bottom: -5%;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  max-width: 90%;
+}
